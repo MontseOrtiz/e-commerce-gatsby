@@ -1,14 +1,14 @@
 import React from 'react'
 import {StyledJumbo} from '../styles/components'
 
-export default function Jumbo() {
+export default function Jumbo({description}) {
     return (
         <StyledJumbo>
             <div>
                 <h2>
                     ¡Consigue las mejores playeras para developers !
                 </h2>
-                <small>Playeras con mensajes cool para todos los developer que aman codear con estilo</small>
+                <small>{description}</small>
             </div>
             
         </StyledJumbo>
